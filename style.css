@@ -1,0 +1,227 @@
+body {
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://www.datocms-assets.com/91872/1683558927-start-hero.png?fit=clamp&fm=webp);
+  width: 100%;
+  height: 790px;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.menu {
+    margin-right: 50px;
+}
+
+.logo {
+  height: 70px;
+  width: auto;
+  margin-left: 50px;
+}
+
+.ordinaryLink {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  float: right;
+  margin: 20px;
+}
+
+.apply {
+  border: bold 20px blue;
+  background-color: blue;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 8px;
+  width: 70px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+
+}
+
+h1, h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  margin-top: 140px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.bigpicture {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(237, 240, 243);
+}
+
+.RecommendationsContainer, .CallToAction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+.InfoText {
+    display: flex;
+    flex-direction: column;
+    display: inline;
+    padding-left: 100px;
+    color: black;
+}
+
+h3, h4, h6{
+    color: rgb(42, 42, 42);
+    width: 600px;
+    font-weight: lighter;
+}
+
+h4 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.RecommendationsContainer {
+    background-color: white;
+}
+
+.OurStudents {
+    display: flex;
+    color: rgb(42, 42, 42);
+    justify-content: flex-start;
+    padding: 40px;
+    font-size: 40px;
+}
+
+.Recommend {
+    width: 90%;
+    display: flex;
+    padding: 30px;
+    color: rgb(42, 42, 42);
+    justify-content: space-around;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 350px;
+    border: solid 2px;
+    border-radius: 25px;
+}
+
+.CallToAction {
+    height: 400px;
+    justify-content: space-around;
+    background-color: rgb(237, 240, 243);
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(38, 38, 255);
+    color: white;
+    font-size: 15px;
+    margin-bottom: 90px;
+}
+
+.ApplyOpen {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around
+}
+
+.FooterLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aLinks {
+    margin: 5px;
+    font-weight: bold;
+    color: rgb(42, 42, 42);
+}
+
+.FooterContact {
+    margin: 5px;
+}
+
+.ContactUs, .FooterLogo {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.Mail, .Adress {
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+p {
+    margin: 0;
+    color: rgb(42, 42, 42);
+}
+
+.MailAdress, .TheAdress {
+    margin-top: 5px;
+    color: rgb(42, 42, 42);
+}
+
+.FooterLogo {
+    display: flex;
+    align-items: flex-start;
+}
+
+.logoDown {
+    width: 200px;
+    height: auto;
+}
